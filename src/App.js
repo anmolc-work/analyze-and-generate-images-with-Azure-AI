@@ -4,7 +4,7 @@ import { generateImage, isGenerateImageConfigured } from './azure-image-generati
 
 function App() {
 
-  const [prompt, setPrompt] = useState('https://moderatorsampleimages.blob.core.windows.net/samples/sample16.png');
+  const [prompt, setPrompt] = useState('');
   const [imageAltText, setImageAltText] = useState('');
   const [title, setTitle] = useState('');
   const [analysisResult, setAnalysisResult] = useState(null);
